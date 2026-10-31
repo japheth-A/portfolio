@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adidi Japheth | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Adidi Japheth, a modern web developer and designer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href="#home" class="logo">Ad<span>i</span>di</a>
+
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu">
+          <ul class="nav-list">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Hi, I am</p>
+            <h1>Adidi <span>Japheth</span></h1>
+            <p class="tagline">I create beautiful and performant digital experiences.</p>
+
+            <div class="cta-row">
+              <a href="#contact" class="btn btn-primary">Hire Me</a>
+              <a href="#portfolio" class="btn btn-secondary">View Work</a>
+            </div>
+
+            <div class="social-links" aria-label="Social media links">
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-card">
+              <img src="images/hero-portrait.jpg" alt="Adidi Japheth portrait" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container about-grid">
+          <div class="about-media reveal">
+            <div class="image-box">
+              <img src="images/about-photo.jpg" alt="Adidi Japheth portrait in natural light" />
+            </div>
+          </div>
+
+          <div class="about-copy reveal">
+            <p class="section-tag">About Me</p>
+            <h2>Creative developer focused on modern web experiences.</h2>
+            <p>
+              I design and build user-friendly interfaces that help brands stand out,
+              communicate clearly, and convert visitors into customers.
+            </p>
+            <p>
+              With a strong eye for detail and a love for clean code, I bring ideas from
+              concept to launch with responsive layouts, smooth interactions, and scalable front-end solutions.
+            </p>
+
+            <div class="stats">
+              <div>
+                <strong>3+</strong>
+                <span>Years Experience</span>
+              </div>
+              <div>
+                <strong>25+</strong>
+                <span>Projects Done</span>
+              </div>
+              <div>
+                <strong>10k+</strong>
+                <span>Happy Clients</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-tag">Services</p>
+            <h2>What I do</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <i class="fa-solid fa-code"></i>
+              <h3>Web Development</h3>
+              <p>Custom websites and interfaces built with clean, maintainable code.</p>
+            </article>
+
+            <article class="service-card reveal">
+              <i class="fa-solid fa-pen-ruler"></i>
+              <h3>UI/UX Design</h3>
+              <p>Thoughtful layouts and smooth flows that match your brand and goals.</p>
+            </article>
+
+            <article class="service-card reveal">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <h3>Responsive Design</h3>
+              <p>Optimized experiences that look amazing on any screen size or device.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section portfolio">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-tag">Portfolio</p>
+            <h2>Latest Projects</h2>
+          </div>
+
+          <div class="portfolio-grid">
+            <article class="project-card reveal">
+              <div class="project-info">
+                <h3>Brand Launch</h3>
+                <p>Marketing site redesign for a modern startup.</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-info">
+                <h3>E-commerce Store</h3>
+                <p>High-converting storefront experience with product focus.</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-info">
+                <h3>Business Platform</h3>
+                <p>Dashboard and client onboarding experience for a service brand.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="section-tag">Contact</p>
+            <h2>Let’s build something amazing together.</h2>
+            <p>
+              Whether you need a new website, a redesign, or a product landing page,
+              I would love to hear about your project.
+            </p>
+
+            <ul class="contact-list">
+              <li><i class="fa-solid fa-envelope"></i> adidijapheth55@gmail.com</li>
+              <li><i class="fa-solid fa-phone"></i> +234 706 539 2403</li>
+              <li><i class="fa-solid fa-location-dot"></i> Nigeria</li>
+            </ul>
+          </div>
+
+          <form class="contact-form reveal">
+            <input type="text" name="name" placeholder="Your name" aria-label="Name" />
+            <input type="email" name="email" placeholder="Your email" aria-label="Email" />
+            <textarea name="message" rows="5" placeholder="Your message" aria-label="Message"></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Adidi Japheth. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
